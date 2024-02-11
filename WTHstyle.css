@@ -1,0 +1,48 @@
+.body{
+    background-color: rgb(128, 224, 250);
+
+}
+.head-text{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+}
+.searchbox{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+
+}
+input[type='text']{
+    border: solid 3px;
+    border-color: rgb(239, 185, 115);
+    border-radius: 20px;
+    width: 500px;
+    height: 25px;
+}
+button[type='button']{
+    border-radius: 10px;
+    background-color: rgb(90, 143, 90);
+}
+.showArea{
+    display: flex;
+    justify-content: center;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin-top: 5%;
+    margin-left: 40%;
+    border: solid 3px;
+    border-radius: 15px;
+    border-color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    box-shadow: inset;
+}

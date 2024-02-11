@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <title>weatherAPI</title>
+    <link rel="stylesheet" href="WTHstyle.css">
+</head>
+<body class="body">
+    <!-- Rest of your HTML code -->
+    <div class="head-text">WEATHER</div>
+    <div class="searchbox">
+        <form>
+            <label for="city"></label>
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button type="button" id="buttonInput" onclick="searchWeather()">Submit</button>
+        </form>
+    </div>
+    <div class="showArea" id="showArea">Temperature - N/A<br>
+    City - N/A</div>
+    <script src="WTHscript.js" defer></script>
+</body>
+</html>
