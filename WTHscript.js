@@ -10,7 +10,7 @@ searchQuery.addEventListener("keypress", function(event) {
 
 async function searchWeather() {
     const apiKey = '13723652ff7a4de6afc54240242401';
-    const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${searchQuery.value}&aqi=no`;
+    const apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${searchQuery.value}&aqi=no`;
 
     try {
         const response = await fetch(apiUrl, { mode: 'cors' });
